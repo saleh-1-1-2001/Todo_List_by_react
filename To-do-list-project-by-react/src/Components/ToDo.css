@@ -1,0 +1,29 @@
+:root {
+  --primary-color: #2c387e;
+  --light-background-color: #f5f5f5;
+  --secondary-color: #3f51b5;
+  --third-color: #6573c3;
+}
+.todo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--light-background-color);
+  margin-bottom: 15px;
+}
+.todo .check-box {
+  flex-basis: 5%;
+}
+.todo .todo-body {
+  flex-basis: 80%;
+  font-size: 20px;
+  overflow-x: auto;
+}
+.complete {
+  text-decoration: line-through;
+}
+.todo .remove-todo-button {
+  flex-basis: 15%;
+  height: 60px;
+  border: none;
+}

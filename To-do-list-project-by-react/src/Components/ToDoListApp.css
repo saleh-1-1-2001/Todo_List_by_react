@@ -1,0 +1,22 @@
+:root {
+  --primary-color: #2c387e;
+  --light-background-color: #f5f5f5;
+  --secondary-color: #3f51b5;
+  --third-color: #6573c3;
+}
+.todo-list-app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.todo-list-app-header {
+  display: flex;
+
+  margin-bottom: 20px;
+}
+.todo-list-app-header .text-field {
+  flex-basis: 90%;
+}
+.todo-list-app-header .add-button {
+  flex-basis: 15%;
+}
